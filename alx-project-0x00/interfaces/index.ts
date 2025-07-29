@@ -4,6 +4,6 @@ export interface PillProps {
 
 export interface ButtonProps {
   title: string;
-  className?: string;
-  onClick?: () => void;
+  styles?: string; 
+  onClick?: () => void; 
 }
